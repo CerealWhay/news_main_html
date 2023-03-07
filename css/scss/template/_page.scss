@@ -1,0 +1,55 @@
+.container {
+  max-width: 1160px;
+  min-width: 940px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @include md-adaptive {
+    max-width: 940px;
+  }
+}
+
+.small-container {
+  max-width: 860px;
+}
+
+
+.content {
+  margin-top: 48px;
+}
+
+.page-header {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: -0.014em;
+  color: #2C2C2C;
+
+  display: flex;
+  align-items: center;
+
+  max-width: 860px;
+}
+
+.page-content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 100px;
+  .page-content__main {
+    width: 100%;
+  }
+  .page-content__aside {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    @include md-adaptive {
+      width: 240px;
+    }
+  }
+  @include md-adaptive {
+    grid-gap: 60px;
+  }
+}

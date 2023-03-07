@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="css/template.css">
+
+    <link rel="stylesheet" href="css/news-detail.css">
+
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+
+<div class="page">
+    <div class="header">
+        <div class="header__wrapper container">
+            <div class="header__left">
+                <div class="header__logo logo">
+                    <img class="logo__image" src="media/main-logo.png" alt="main-logo"/>
+                </div>
+                <div class="header__activities">
+                    <div class="activity">
+                        <div class="activity__banner">
+                            <img src="media/k.jpg" alt="" class="activity__img">
+                        </div>
+                    </div>
+                    <div class="activity">
+                        <div class="activity__banner">
+                            <img src="media/k.jpg" alt="" class="activity__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__right">
+                <div class="header__profile lk-profile">
+                    <div class="lk-profile__avatar">
+                        <img src="media/k.jpg" alt="" class="lk-profile__avatar-img">
+                    </div>
+                    <div class="lk-profile__info">
+                        <div class="lk-profile__name">Константин</div>
+                        <div class="lk-profile__controls">
+                            <div class="lk-profile__settings lk-profile__btn"></div>
+                            <div class="lk-profile__exit lk-profile__btn"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__notification notification">
+            <div class="notification__counter">3</div>
+        </div>
+    </div>
+
+    <div class="main-nav">
+        <div class="main-nav__wrapper container">
+
+            <div class="main-nav__menu main-menu main-menu--1lvl">
+
+                <div class="menu-wrapper-1lvl">
+
+                    <div class="menu-item menu-item--1lvl active">
+                        <a href="#" class="menu-item__link">..link</a>
+                    </div>
+
+                    <div class="menu-item menu-item--1lvl has-2lvl">
+                        <a href="#" class="menu-item__link">..inner item</a>
+
+                        <div class="main-menu--2lvl">
+                            <div class="container menu-wrapper-2lvl">
+
+                                <div class="menu-item menu-item--2lvl">
+                                    <a href="#" class="menu-item__link">..link</a>
+                                </div>
+                                <div class="menu-item menu-item--2lvl active">
+                                    <a href="#" class="menu-item__link">..link</a>
+                                </div>
+                                <div class="menu-item menu-item--2lvl menu-item--disabled">
+                                    <a href="#" class="menu-item__link">..link</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item menu-item--1lvl menu-item--disabled">
+                        <a href="#" class="menu-item__link">..disabled item</a>
+                    </div>
+
+                    <div class="menu-item menu-item--1lvl has-2lvl">
+                        <a href="#" class="menu-item__link">..inner item W/ EWE</a>
+
+                        <div class="main-menu--2lvl">
+                            <div class="container menu-wrapper-2lvl">
+
+                                <div class="menu-item menu-item--2lvl">
+                                    <a href="#" class="menu-item__link">
+                                        LONG LINK NAME1
+                                    </a>
+                                </div>
+                                <div class="menu-item menu-item--2lvl">
+                                    <a href="#" class="menu-item__link">
+                                        LONG
+                                    </a>
+                                </div>
+                                <div class="menu-item menu-item--2lvl">
+                                    <a href="#" class="menu-item__link">
+                                        LONG
+                                    </a>
+                                </div>
+                                <div class="menu-item menu-item--2lvl">
+                                    <a href="#" class="menu-item__link">
+                                        LONG LINK NAME4
+                                    </a>
+                                </div>
+                                <div class="menu-item menu-item--2lvl">
+                                    <a href="#" class="menu-item__link">
+                                        LONG LINK NAME5
+                                    </a>
+                                </div>
+                                <div class="menu-item menu-item--2lvl">
+                                    <a href="#" class="menu-item__link">
+                                        Частичная sdfdsfdsfsdf
+                                    </a>
+                                </div>
+                                <div class="menu-item menu-item--2lvl">
+                                    <a href="#" class="menu-item__link">
+                                        Частичная мобилизация.Дополнение
+                                    </a>
+                                </div>
+                                <div class="menu-item menu-item--2lvl active">
+                                    <a href="#" class="menu-item__link">..link1</a>
+                                </div>
+                                <div class="menu-item menu-item--2lvl menu-item--disabled">
+                                    <a href="#" class="menu-item__link">..link2</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="search" class="main-nav__search main-search">
+                <div id="main-search__icon" class="main-search__icon"></div>
+                <div class="main-search__bar">
+                    <div class="main-search__wrapper container">
+                        <div class="main-search__input-wrapper">
+                            <input type="text" class="main-search__input" placeholder="Введи свой запрос"/>
+                            <input type="button" class="main-search__input-label">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="content container news-detail">
+
+        <div class="page-breadcrumbs">
+            <div href="#" class="page-breadcrumbs__item">
+                <a href="#" class="page-breadcrumbs__item-link">Item</a>
+            </div>
+            <div href="#" class="page-breadcrumbs__item">
+                <a href="#" class="page-breadcrumbs__item-link">Документы</a>
+            </div>
+            <div class="page-breadcrumbs__item page-breadcrumbs__item--current">
+                <a href="#" class="page-breadcrumbs__item-link">Название статьи</a>
+            </div>
+        </div>
+
+        <div class="page-header">
+            Заголовок статьи. Обязательный блок.
+            Минимум одна строка, максимум ограничен названием статьи
+        </div>
+
+        <div class="page-content">
+            <div class="page-content__main">
+
+                <div class="news-detail__annotation small-container">
+                    Аннотация для статьи. Необязательный блок.
+                    Минимум одна строка, максимум три строки.
+                </div>
+
+                <div class="news-detail__news-info news-info small-container">
+                    <div class="news-info__author-and-date">
+                        <div class="news-info__author">Константин Константинопольский</div>
+                        <div class="news-info__date">27.12.2022, 17:15</div>
+                    </div>
+                    <div class="news-info__watched-and-commented">
+                        <div class="news-info__watched">212</div>
+                        <div class="news-info__commented">114</div>
+                    </div>
+                </div>
+
+                <div class="news-detail__news-body news-body">...body...</div>
+
+                <div class="news-detail__attached_files attached_files">...files...</div>
+
+                <div class="news-detail__technical-block technical-block">
+                    <div class="technical-block__section section-btn">Документы</div>
+                    <div class="technical-block__bookmark bookmark-icon">4</div>
+                    <div class="technical-block__share share-icon">10</div>
+                    <div class="technical-block__reactions reactions">
+                        <div class="reactions__selector">
+                            <div class="reactions__selector-icon">
+                                <img src="media/main-icon.png" alt="" class="reactions__selector-icon-img">
+                            </div>
+                            <div class="reactions__hidden-block">
+                                <div class="selector-block">
+                                    <div class="selector-block__wrapper">
+                                        <div class="selector-block__item">
+                                            <img src="media/reaction-icon.png" alt=""
+                                                 class="reactions__main-icon-img">
+                                        </div>
+                                        <div class="selector-block__item">
+                                            <img src="media/reaction-icon.png" alt=""
+                                                 class="reactions__main-icon-img">
+                                        </div>
+                                        <div class="selector-block__item">
+                                            <img src="media/reaction-icon.png" alt=""
+                                                 class="reactions__main-icon-img">
+                                        </div>
+                                        <div class="selector-block__item">
+                                            <img src="media/reaction-icon.png" alt=""
+                                                 class="reactions__main-icon-img">
+                                        </div>
+                                        <div class="selector-block__item selector-block__item--selected">
+                                            <img src="media/reaction-icon.png" alt=""
+                                                 class="reactions__main-icon-img">
+                                        </div>
+                                        <div class="selector-block__item">
+                                            <img src="media/reaction-icon.png" alt=""
+                                                 class="reactions__main-icon-img">
+                                        </div>
+                                        <div class="selector-block__item">
+                                            <img src="media/reaction-icon.png" alt=""
+                                                 class="reactions__main-icon-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reactions__marked">
+                            <div class="reactions__marked-count">34</div>
+                            <div class="reactions__hidden-block">
+                                <div class="marked-block">
+                                    <div class="marked-block__wrapper">
+                                        <div class="marked-block__reaction-types">
+                                            <div class="reaction-type">
+                                                <div class="reaction-type__icon">
+                                                    <img src="media/reaction-icon.png" alt=""
+                                                         class="reaction-type__icon-img">
+                                                </div>
+                                                <div class="reaction-type__count">13</div>
+                                            </div>
+                                            <div class="reaction-type reaction-type--selected">
+                                                <div class="reaction-type__icon">
+                                                    <img src="media/reaction-icon.png" alt=""
+                                                         class="reaction-type__icon-img">
+                                                </div>
+                                                <div class="reaction-type__count">25</div>
+                                            </div>
+                                            <div class="reaction-type">
+                                                <div class="reaction-type__icon">
+                                                    <img src="media/reaction-icon.png" alt=""
+                                                         class="reaction-type__icon-img">
+                                                </div>
+                                                <div class="reaction-type__count">7</div>
+                                            </div>
+                                            <div class="reaction-type">
+                                                <div class="reaction-type__icon">
+                                                    <img src="media/reaction-icon.png" alt=""
+                                                         class="reaction-type__icon-img">
+                                                </div>
+                                                <div class="reaction-type__count">4</div>
+                                            </div>
+                                            <div class="reaction-type">
+                                                <div class="reaction-type__icon">
+                                                    <img src="media/reaction-icon.png" alt=""
+                                                         class="reaction-type__icon-img">
+                                                </div>
+                                                <div class="reaction-type__count">14</div>
+                                            </div>
+                                            <div class="reaction-type">
+                                                <div class="reaction-type__icon">
+                                                    <img src="media/reaction-icon.png" alt=""
+                                                         class="reaction-type__icon-img">
+                                                </div>
+                                                <div class="reaction-type__count">14</div>
+                                            </div>
+                                            <div class="reaction-type">
+                                                <div class="reaction-type__icon">
+                                                    <img src="media/reaction-icon.png" alt=""
+                                                         class="reaction-type__icon-img">
+                                                </div>
+                                                <div class="reaction-type__count">14</div>
+                                            </div>
+                                        </div>
+                                        <div class="marked-block__people-wrapper">
+                                            <div class="marked-block-person">
+                                                <div class="marked-block-person__avatar">
+                                                    <img src="media/k.jpg" alt=""
+                                                         class="marked-block-person__avatar-img">
+                                                </div>
+                                                <div class="marked-block-person__username">
+                                                    Константин Сонин
+                                                </div>
+                                            </div>
+                                            <div class="marked-block-person">
+                                                <div class="marked-block-person__avatar">
+                                                    <img src="media/k.jpg" alt=""
+                                                         class="marked-block-person__avatar-img">
+                                                </div>
+                                                <div class="marked-block-person__username">
+                                                    Константин Константинопольский
+                                                </div>
+                                            </div>
+                                            <div class="marked-block-person">
+                                                <div class="marked-block-person__avatar">
+                                                    <img src="media/k.jpg" alt=""
+                                                         class="marked-block-person__avatar-img">
+                                                </div>
+                                                <div class="marked-block-person__username">
+                                                    Константин Сонин
+                                                </div>
+                                            </div>
+                                            <div class="marked-block-person">
+                                                <div class="marked-block-person__avatar">
+                                                    <img src="media/k.jpg" alt=""
+                                                         class="marked-block-person__avatar-img">
+                                                </div>
+                                                <div class="marked-block-person__username">
+                                                    Константин Константинопольский
+                                                </div>
+                                            </div>
+                                            <div class="marked-block-person">
+                                                <div class="marked-block-person__avatar">
+                                                    <img src="media/k.jpg" alt=""
+                                                         class="marked-block-person__avatar-img">
+                                                </div>
+                                                <div class="marked-block-person__username">
+                                                    Константин Сонин
+                                                </div>
+                                            </div>
+                                            <div class="marked-block-person">
+                                                <div class="marked-block-person__avatar">
+                                                    <img src="media/k.jpg" alt=""
+                                                         class="marked-block-person__avatar-img">
+                                                </div>
+                                                <div class="marked-block-person__username">
+                                                    Константин Константинопольский
+                                                </div>
+                                            </div>
+                                            <div class="marked-block-person">
+                                                <div class="marked-block-person__avatar">
+                                                    <img src="media/k.jpg" alt=""
+                                                         class="marked-block-person__avatar-img">
+                                                </div>
+                                                <div class="marked-block-person__username">
+                                                    Константин Сонин
+                                                </div>
+                                            </div>
+                                            <div class="marked-block-person">
+                                                <div class="marked-block-person__avatar">
+                                                    <img src="media/k.jpg" alt=""
+                                                         class="marked-block-person__avatar-img">
+                                                </div>
+                                                <div class="marked-block-person__username">
+                                                    Константин Константинопольский
+                                                </div>
+                                            </div>
+                                            <div class="marked-block-person">
+                                                <div class="marked-block-person__avatar">
+                                                    <img src="media/k.jpg" alt=""
+                                                         class="marked-block-person__avatar-img">
+                                                </div>
+                                                <div class="marked-block-person__username">
+                                                    Константин Сонин
+                                                </div>
+                                            </div>
+                                            <div class="marked-block-person">
+                                                <div class="marked-block-person__avatar">
+                                                    <img src="media/k.jpg" alt=""
+                                                         class="marked-block-person__avatar-img">
+                                                </div>
+                                                <div class="marked-block-person__username">
+                                                    Константин Константинопольский
+                                                </div>
+                                            </div>
+                                            <div class="marked-block-person">
+                                                <div class="marked-block-person__avatar">
+                                                    <img src="media/k.jpg" alt=""
+                                                         class="marked-block-person__avatar-img">
+                                                </div>
+                                                <div class="marked-block-person__username">
+                                                    Константин Сонин
+                                                </div>
+                                            </div>
+                                            <div class="marked-block-person">
+                                                <div class="marked-block-person__avatar">
+                                                    <img src="media/k.jpg" alt=""
+                                                         class="marked-block-person__avatar-img">
+                                                </div>
+                                                <div class="marked-block-person__username">
+                                                    Константин Константинопольский
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="footer"></div>
+
+</div>
+
+</body>
+</html>

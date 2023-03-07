@@ -1,0 +1,9 @@
+.technical-block {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  .technical-block__section {}
+  .technical-block__bookmark {}
+  .technical-block__share {}
+  .technical-block__reactions {}
+}

@@ -1,0 +1,38 @@
+.widget.vacancy {
+  .vacancy__body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .vacancy__banner {
+      overflow: hidden;
+      border-radius: 8px;
+      width: fit-content;
+      .vacancy__img {
+        display: block;
+        width: 64px;
+        height: 64px;
+        object-position: center;
+        object-fit: cover;
+      }
+    }
+    .vacancy__text {
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 155%;
+      color: #2C2C2C;
+      text-decoration: none;
+
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      &:hover {
+        color: #0040B0;
+      }
+    }
+  }
+}

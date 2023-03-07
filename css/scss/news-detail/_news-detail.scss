@@ -1,0 +1,23 @@
+.news-detail {
+  .page-content {
+    margin-top: 16px;
+  }
+  .news-detail__annotation {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #2C2C2C;
+    margin-bottom: 24px;
+  }
+  .news-detail__news-info {}
+  .news-detail__news-body {
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
+  .news-detail__attached_files {}
+  .news-detail__technical-block {
+    margin-top: 48px;
+  }
+}

@@ -1,0 +1,24 @@
+.section-btn {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #2C2C2C;
+  text-decoration: none;
+  background: white;
+  border: 1px solid #EFEFEF;
+  border-radius: 8px;
+  padding: 4px 8px;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out, border .3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid #0045BF;
+    background-color: #0045BF;
+    color: #FFFFFF;
+  }
+}

@@ -1,0 +1,23 @@
+.main-page {
+  padding-top: 16px;
+  .main-page__pinned-news {
+    margin-bottom: 80px;
+  }
+  .main-page__header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    line-height: 140%;
+
+    margin-bottom: 24px;
+  }
+  .main-page__news-categories {}
+  .main-page__news-notices {
+    margin-top: 32px;
+  }
+  .main-page__news-list {
+    margin-top: 32px;
+  }
+  .main-page__load-more {
+    margin-top: 32px;
+  }
+}

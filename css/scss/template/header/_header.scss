@@ -1,0 +1,61 @@
+
+.header {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #EFEFEF;
+  background: #FEFEFE;
+  height: 95px;
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .header__left {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+      .header__logo {}
+      .header__activities {
+        display: flex;
+        gap: 8px;
+      }
+    }
+    .header__right {
+      .header__profile {}
+    }
+  }
+  .header__notification {
+    position: absolute;
+    right: 44px;
+  }
+}
+
+.logo {
+  .logo__image {
+    display: block;
+  }
+}
+.activity {
+  cursor: pointer;
+  border: 1px solid #C6C6C6;
+  border-radius: 50%;
+  padding: 2px;
+  .activity__banner {
+    overflow: hidden;
+    border-radius: 50%;
+    width: fit-content;
+
+    border: 1px solid #C6C6C6;
+    .activity__img {
+      display: block;
+      width: 52px;
+      height: 52px;
+      object-position: center;
+      object-fit: cover;
+    }
+  }
+}
