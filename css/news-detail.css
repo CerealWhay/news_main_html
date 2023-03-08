@@ -17,6 +17,9 @@
 .news-detail .news-detail__technical-block {
   margin-top: 48px;
 }
+.news-detail .news-detail__comments {
+  margin-top: 48px;
+}
 
 .news-info {
   font-family: "Inter", sans-serif;
