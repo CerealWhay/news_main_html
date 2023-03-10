@@ -81,75 +81,7 @@ class SearchController {
 
 }
 
-class ReactionsController {
-    reactionNodes = document.querySelectorAll('.reactions')
-    reactions = []
-
-    constructor() {
-        this.reactionNodes.forEach((reaction) => {
-            const reactionsMainIcon = reaction.querySelector('.reactions__main-icon');
-            const reactionsMainCount = reaction.querySelector('.reactions__main-count');
-            const reactionsSelectorBlock = reaction.querySelector('.reactions__selector-block');
-            const reactionsMarkedBlock = reaction.querySelector('.reactions__marked-block');
-            this.reactions.push(
-                new ReactionController(
-                    reaction,
-                    reactionsMainIcon,
-                    reactionsMainCount,
-                    reactionsSelectorBlock,
-                    reactionsMarkedBlock,
-                )
-            )
-        })
-    }
-
-}
-
-class ReactionController {
-    constructor(
-        reactions,
-        reactionsMainIcon,
-        reactionsMainCount,
-        reactionsSelectorBlock,
-        reactionsMarkedBlock
-    ) {
-        this.reactions = reactions
-        this.reactionsMainIcon = reactionsMainIcon
-        this.reactionsMainCount = reactionsMainCount
-        this.reactionsSelectorBlock = reactionsSelectorBlock
-        this.reactionsMarkedBlock = reactionsMarkedBlock
-
-        this.addELIcon()
-        this.addELCount()
-    }
-
-    addELIcon = () => {
-        this.reactions.addEventListener(
-            'mousemove',
-            (e) => e.stopPropagation()
-        )
-        this.reactionsMainIcon.addEventListener('mouseover', (e) => {
-                this.reactionsSelectorBlock.classList.add('active')
-            }
-        )
-        addEventListener('mousemove', (e) => {
-            console.log('d');
-                this.reactionsSelectorBlock.classList.remove('active')
-            }
-        )
-    }
-
-    addELCount = () => {
-        this.reactionsMainCount.addEventListener('click', (e) => {
-                console.log(this.reactionsMarkedBlock)
-            }
-        )
-    }
-
-}
-
 /* MOUNTED */
 new MenuController()
 new NoticeController()
 new SearchController()
-// new ReactionsController()

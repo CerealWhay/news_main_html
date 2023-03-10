@@ -52,12 +52,22 @@
     height: 42px;
     border: 1px solid #2C2C2C;
     user-select: none;
+    transition: background-color .3s ease-out, border .3s ease-out, color .3s ease-out;
   }
-  .attached-file__title {
-  }
+  .attached-file__title {}
   .attached-file__show-btn {
     color: #0045BF;
     cursor: pointer;
     text-decoration: none;
+    &:hover {
+      color: #0040B0;
+    }
+  }
+  &:hover {
+    .attached-file__type-icon {
+      background: #0040B0;
+      border: 1px solid #0040B0;
+      color: #FFFFFF;
+    }
   }
 }
