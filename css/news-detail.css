@@ -10,6 +10,9 @@
   color: #2C2C2C;
   margin-bottom: 24px;
 }
+.news-detail .news-detail__news-updated {
+  margin-top: 16px;
+}
 .news-detail .news-detail__news-body {
   margin-top: 32px;
   margin-bottom: 24px;
@@ -84,6 +87,45 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.3751 3.75C10.2865 3.75 8.28345 4.57968 6.8066 6.05653C5.32975 7.53338 4.50006 9.53642 4.50006 11.625V19.5H12.3751C13.4092 19.5 14.4333 19.2963 15.3887 18.9006C16.3441 18.5048 17.2123 17.9247 17.9435 17.1935C18.6748 16.4622 19.2549 15.5941 19.6506 14.6386C20.0464 13.6832 20.2501 12.6592 20.2501 11.625C20.2501 10.5908 20.0464 9.56681 19.6506 8.61137C19.2549 7.65593 18.6748 6.7878 17.9435 6.05653C17.2123 5.32527 16.3441 4.7452 15.3887 4.34945C14.4333 3.95369 13.4092 3.75 12.3751 3.75ZM12.3751 21H4.47602C4.2827 21.0018 4.09092 20.9652 3.91179 20.8924C3.73084 20.8189 3.56647 20.7098 3.42836 20.5717C3.29025 20.4336 3.1812 20.2692 3.10765 20.0883C3.03484 19.9091 2.99828 19.7174 3.00006 19.524V11.625C3.00006 9.1386 3.98778 6.75403 5.74594 4.99587C7.50409 3.23772 9.88866 2.25 12.3751 2.25C13.6062 2.25 14.8253 2.49249 15.9627 2.96363C17.1001 3.43477 18.1336 4.12532 19.0042 4.99587C19.8747 5.86642 20.5653 6.89992 21.0364 8.03734C21.5076 9.17477 21.7501 10.3939 21.7501 11.625C21.7501 12.8561 21.5076 14.0752 21.0364 15.2127C20.5653 16.3501 19.8747 17.3836 19.0042 18.2541C18.1336 19.1247 17.1001 19.8152 15.9627 20.2864C14.8253 20.7575 13.6062 21 12.3751 21Z' fill='%23ABABAB'/%3E%3C/svg%3E");
+}
+
+.news-updated {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+}
+.news-updated .news-updated__wrapper {
+  background: #FEFEFE;
+  border: 1px solid #EFEFEF;
+  padding: 14px 16px 24px;
+}
+.news-updated .news-updated__wrapper .news-updated__title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #2C2C2C;
+  margin-bottom: 8px;
+}
+.news-updated .news-updated__wrapper .news-updated__title:before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11.378 2.00776C11.5156 1.95014 11.6633 1.92047 11.8125 1.92047C11.9617 1.92047 12.1094 1.95014 12.247 2.00776C12.3838 2.06505 12.5079 2.14881 12.6122 2.25423L15.7458 5.38776C15.8512 5.49207 15.935 5.61619 15.9922 5.753C16.0499 5.89061 16.0795 6.03831 16.0795 6.1875C16.0795 6.33669 16.0499 6.48438 15.9922 6.62199C15.935 6.7588 15.8512 6.88291 15.7458 6.98721L7.14775 15.5852C7.04226 15.6907 6.89918 15.75 6.75 15.75H3.375C3.07663 15.75 2.79048 15.6315 2.5795 15.4205C2.36853 15.2095 2.25 14.9234 2.25 14.625V11.4828M11.378 2.00776C11.2412 2.06505 11.117 2.14884 11.0127 2.25428L11.378 2.00776ZM3.375 11.483V14.625H6.517L14.9545 6.18749L14.9515 6.18448L11.8125 3.04548L11.8095 3.04854L3.375 11.483Z' fill='%232C2C2C'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M6.1875 15.1875C6.1875 14.8768 6.43934 14.625 6.75 14.625H15.1875C15.4982 14.625 15.75 14.8768 15.75 15.1875C15.75 15.4982 15.4982 15.75 15.1875 15.75H6.75C6.43934 15.75 6.1875 15.4982 6.1875 15.1875Z' fill='%232C2C2C'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9.16475 4.10225C9.38442 3.88258 9.74058 3.88258 9.96025 4.10225L13.8977 8.03975C14.1174 8.25942 14.1174 8.61558 13.8977 8.83525C13.6781 9.05492 13.3219 9.05492 13.1023 8.83525L9.16475 4.89775C8.94508 4.67808 8.94508 4.32192 9.16475 4.10225Z' fill='%232C2C2C'/%3E%3C/svg%3E%0A");
+}
+.news-updated .news-updated__wrapper .news-updated__body {
+  color: #ABABAB;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.news-updated .news-updated__wrapper .news-updated__body .news-updated__item {
+  margin-left: 26px;
+  list-style-position: inside;
 }
 
 .technical-block {
