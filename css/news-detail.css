@@ -95,20 +95,18 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 170%;
-}
-.news-updated .news-updated__wrapper {
   background: #FEFEFE;
   border: 1px solid #EFEFEF;
   padding: 14px 16px 24px;
 }
-.news-updated .news-updated__wrapper .news-updated__title {
+.news-updated .news-updated__title {
   display: flex;
   gap: 8px;
   align-items: center;
   color: #2C2C2C;
   margin-bottom: 8px;
 }
-.news-updated .news-updated__wrapper .news-updated__title:before {
+.news-updated .news-updated__title:before {
   content: "";
   display: inline-block;
   width: 18px;
@@ -117,13 +115,13 @@
   background-position: center center;
   background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11.378 2.00776C11.5156 1.95014 11.6633 1.92047 11.8125 1.92047C11.9617 1.92047 12.1094 1.95014 12.247 2.00776C12.3838 2.06505 12.5079 2.14881 12.6122 2.25423L15.7458 5.38776C15.8512 5.49207 15.935 5.61619 15.9922 5.753C16.0499 5.89061 16.0795 6.03831 16.0795 6.1875C16.0795 6.33669 16.0499 6.48438 15.9922 6.62199C15.935 6.7588 15.8512 6.88291 15.7458 6.98721L7.14775 15.5852C7.04226 15.6907 6.89918 15.75 6.75 15.75H3.375C3.07663 15.75 2.79048 15.6315 2.5795 15.4205C2.36853 15.2095 2.25 14.9234 2.25 14.625V11.4828M11.378 2.00776C11.2412 2.06505 11.117 2.14884 11.0127 2.25428L11.378 2.00776ZM3.375 11.483V14.625H6.517L14.9545 6.18749L14.9515 6.18448L11.8125 3.04548L11.8095 3.04854L3.375 11.483Z' fill='%232C2C2C'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M6.1875 15.1875C6.1875 14.8768 6.43934 14.625 6.75 14.625H15.1875C15.4982 14.625 15.75 14.8768 15.75 15.1875C15.75 15.4982 15.4982 15.75 15.1875 15.75H6.75C6.43934 15.75 6.1875 15.4982 6.1875 15.1875Z' fill='%232C2C2C'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9.16475 4.10225C9.38442 3.88258 9.74058 3.88258 9.96025 4.10225L13.8977 8.03975C14.1174 8.25942 14.1174 8.61558 13.8977 8.83525C13.6781 9.05492 13.3219 9.05492 13.1023 8.83525L9.16475 4.89775C8.94508 4.67808 8.94508 4.32192 9.16475 4.10225Z' fill='%232C2C2C'/%3E%3C/svg%3E%0A");
 }
-.news-updated .news-updated__wrapper .news-updated__body {
+.news-updated .news-updated__body {
   color: #ABABAB;
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
-.news-updated .news-updated__wrapper .news-updated__body .news-updated__item {
+.news-updated .news-updated__body .news-updated__item {
   margin-left: 26px;
   list-style-position: inside;
 }

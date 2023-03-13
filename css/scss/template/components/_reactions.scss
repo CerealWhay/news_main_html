@@ -42,8 +42,12 @@
   .reactions__marked {
     .reactions__marked-count {
       cursor: pointer;
+      color: #808080;
     }
     &:hover {
+      .reactions__marked-count {
+        color: #0040B0;
+      }
       .reactions__hidden-block {
         height: auto;
         opacity: 1;

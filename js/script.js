@@ -64,6 +64,7 @@ class SearchController {
 
     search = document.querySelector('#search')
     searchBtn = document.querySelector('#main-search__icon')
+    searchBar = document.querySelector('.main-search__input')
 
     constructor() {
         this.search.addEventListener(
@@ -74,6 +75,7 @@ class SearchController {
             'click',
             (e) => {
                 this.search.classList.toggle('active')
+                this.searchBar.focus()
             }
         )
         addEventListener('click', () => this.search.classList.remove('active'))

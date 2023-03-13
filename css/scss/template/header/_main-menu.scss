@@ -19,10 +19,13 @@
     background: #0045BF;
     box-shadow: 0 2px 8px rgba(95, 160, 255, 0.08);
     cursor: auto;
+
+    display: flex;
+    align-items: center;
     .menu-wrapper-2lvl {
+      width: 100%;
       display: flex;
       gap: 24px;
-      padding: 32px 0;
     }
   }
 }
@@ -42,7 +45,7 @@
 
 .menu-item--1lvl {
   display: flex;
-  height: 80px;
+  height: 70px;
   &>.menu-item__link {
     font-size: 14px;
     line-height: 130%;
@@ -76,7 +79,7 @@
     .main-menu--2lvl {
       opacity: 1;
       visibility: visible;
-      height: auto;
+      height: 70px;
       z-index: 99;
     }
   }

@@ -3,7 +3,7 @@
     margin-top: 16px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
     .birthdays__date {
       display: flex;
       gap: 8px;
@@ -57,6 +57,7 @@
     overflow: hidden;
     border-radius: 50%;
     width: fit-content;
+    cursor: pointer;
     .birthday__img {
       display: block;
       width: 64px;
