@@ -7,7 +7,11 @@
 
     <link rel="stylesheet" href="css/main-page.css">
 
-    <script defer src="js/script.js"></script>
+    <script src="./vendor/vue.js"></script>
+    <!--    <script src="./vendor/vue.min.js"></script>-->
+    <script defer type="module" src="./js/script.js"></script>
+
+    <script defer src="./js/controllers.js"></script>
 </head>
 <body>
 
@@ -170,12 +174,10 @@
                     </div>
                 </div>
                 <div class="pinned-news-item__detail">
-                    <div class="pinned-news-item__title tooltip tooltip--news-title"
-                         data-tooltip="минимум одна строка"
+                    <div class="pinned-news-item__title"
+                         title="минимум одна строка"
                     >
-                        <a class="pinned-news-item__title-text">
-                            минимум одна строка
-                        </a>
+                        минимум одна строка
                     </div>
                     <div class="pinned-news-item__info news-card-info-block">
                         <div class="news-card-info-block__author">
@@ -415,12 +417,10 @@
                     </div>
                 </div>
                 <div class="pinned-news-item__detail">
-                    <div class="pinned-news-item__title tooltip tooltip--news-title"
-                         data-tooltip="Заголовок: минимум одна строка, максимум 3 строки вот вот вот"
+                    <div class="pinned-news-item__title"
+                         title="минимум одна строка"
                     >
-                        <a class="pinned-news-item__title-text">
-                            Заголовок: минимум одна строка, максимум 3 строки вот вот вот
-                        </a>
+                        Заголовок: минимум одна строка, максимум 3 строки вот вот вот
                     </div>
                     <div class="pinned-news-item__info news-card-info-block">
                         <div class="news-card-info-block__author">
@@ -658,13 +658,11 @@
                     </div>
                 </div>
                 <div class="pinned-news-item__detail">
-                    <div class="pinned-news-item__title tooltip tooltip--news-title"
-                         data-tooltip="Очевидно длинный заголовк на много строк (заголовок): минимум одна строка максимум 3 строки вот вот вот"
+                    <div class="pinned-news-item__title"
+                         title="минимум одна строка"
                     >
-                        <a class="pinned-news-item__title-text">
-                            Очевидно длинный заголовк на много строк (заголовок): минимум одна строка максимум 3 строки вот
-                            вот вот
-                        </a>
+                        Очевидно длинный заголовк на много строк (заголовок): минимум одна строка максимум 3 строки вот
+                        вот вот
                     </div>
                     <div class="pinned-news-item__info news-card-info-block">
                         <div class="news-card-info-block__author">
@@ -902,12 +900,10 @@
                     </div>
                 </div>
                 <div class="pinned-news-item__detail">
-                    <div class="pinned-news-item__title tooltip tooltip--news-title"
-                         data-tooltip="минимум одна строка"
+                    <div class="pinned-news-item__title"
+                         title="минимум одна строка"
                     >
-                        <a class="pinned-news-item__title-text">
-                            минимум одна строка
-                        </a>
+                        минимум одна строка
                     </div>
                     <div class="pinned-news-item__info news-card-info-block">
                         <div class="news-card-info-block__author">
@@ -1260,15 +1256,12 @@
                             </div>
                         </div>
                         <div class="news-item__detail">
-                            <div class="news-item__title tooltip tooltip--news-title"
-                                 data-tooltip="Заголовок: минимум одна строка, максимум три строки.
-                                Заголовок: минимум одна строка, максимум три строки"
+                            <div class="news-item__title"
+                                 title="Заголовок: минимум одна строка, максимум три строки."
                             >
-                                <a class="news-item__title-text">
-                                    Заголовок: минимум одна строка, максимум две строки
-                                    Заголовок: минимум одна строка, максимум две строки
-                                    Заголовок: минимум одна строка, максимум две строки
-                                </a>
+                                Заголовок: минимум одна строка, максимум две строки
+                                Заголовок: минимум одна строка, максимум две строки
+                                Заголовок: минимум одна строка, максимум две строки
                             </div>
                             <div class="news-item__annotation">
                                 Аннотация. Минимум одна строка, макисимум две строки. Аннотация.
@@ -1514,15 +1507,12 @@
                             </div>
                         </div>
                         <div class="news-item__detail">
-                            <div class="news-item__title tooltip tooltip--news-title"
-                                 data-tooltip="Заголовок: минимум одна строка, максимум три строки.
-                                Заголовок: минимум одна строка, максимум три строки"
+                            <div class="news-item__title"
+                                 title="Заголовок: минимум одна строка, максимум три строки."
                             >
-                                <a class="news-item__title-text">
-                                    Заголовок: минимум одна строка, максимум две строки
-                                    Заголовок: минимум одна строка, максимум две строки
-                                    Заголовок: минимум одна строка, максимум две строки
-                                </a>
+                                Заголовок: минимум одна строка, максимум две строки
+                                Заголовок: минимум одна строка, максимум две строки
+                                Заголовок: минимум одна строка, максимум две строки
                             </div>
                             <div class="news-item__annotation">
                                 Аннотация. Минимум одна строка, макисимум две строки. Аннотация.
@@ -1775,14 +1765,11 @@
                                     27 февраля (ред)
                                 </div>
                             </div>
-                            <div class="main-banner__title tooltip tooltip--news-title"
-                                 data-tooltip="Заголовок: минимум одна строка, максимум три строки.
-                                Заголовок: минимум одна строка, максимум три строки"
+                            <div class="main-banner__title"
+                                 title="Заголовок: минимум одна строка, максимум три строки."
                             >
-                                <div class="main-banner__title-text">
-                                    Заголовок: минимум одна строка, максимум три строки.
-                                    Заголовок: минимум одна строка, максимум три строки
-                                </div>
+                                Заголовок: минимум одна строка, максимум три строки.
+                                Заголовок: минимум одна строка, максимум три строки
                             </div>
                             <div class="main-banner__technical news-card-tech-block">
                                 <div class="news-card-tech-block__reactions reactions">
@@ -2012,15 +1999,12 @@
                             </div>
                         </div>
                         <div class="news-item__detail">
-                            <div class="news-item__title tooltip tooltip--news-title"
-                                 data-tooltip="Заголовок: минимум одна строка, максимум три строки.
-                                Заголовок: минимум одна строка, максимум три строки"
+                            <div class="news-item__title"
+                                 title="Заголовок: минимум одна строка, максимум три строки."
                             >
-                                <a class="news-item__title-text">
-                                    Заголовок: минимум одна строка, максимум две строки
-                                    Заголовок: минимум одна строка, максимум две строки
-                                    Заголовок: минимум одна строка, максимум две строки
-                                </a>
+                                Заголовок: минимум одна строка, максимум две строки
+                                Заголовок: минимум одна строка, максимум две строки
+                                Заголовок: минимум одна строка, максимум две строки
                             </div>
                             <div class="news-item__annotation">
                                 Аннотация. Минимум одна строка, макисимум две строки. Аннотация.
@@ -2266,15 +2250,12 @@
                             </div>
                         </div>
                         <div class="news-item__detail">
-                            <div class="news-item__title tooltip tooltip--news-title"
-                                 data-tooltip="Заголовок: минимум одна строка, максимум три строки.
-                                Заголовок: минимум одна строка, максимум три строки"
+                            <div class="news-item__title"
+                                 title="Заголовок: минимум одна строка, максимум три строки."
                             >
-                                <a class="news-item__title-text">
-                                    Заголовок: минимум одна строка, максимум две строки
-                                    Заголовок: минимум одна строка, максимум две строки
-                                    Заголовок: минимум одна строка, максимум две строки
-                                </a>
+                                Заголовок: минимум одна строка, максимум две строки
+                                Заголовок: минимум одна строка, максимум две строки
+                                Заголовок: минимум одна строка, максимум две строки
                             </div>
                             <div class="news-item__annotation">
                                 Аннотация. Минимум одна строка, макисимум две строки. Аннотация.

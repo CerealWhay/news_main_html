@@ -28,22 +28,20 @@
     }
     .main-banner__title {
       cursor: pointer;
-      .main-banner__title-text {
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 140%;
-        text-align: center;
-        letter-spacing: -0.014em;
-        color: #FFFFFF;
-        text-decoration: none;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: -0.014em;
+      color: #FFFFFF;
+      text-decoration: none;
 
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
     .main-banner__technical {
       color: #ffffff;

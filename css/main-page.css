@@ -156,8 +156,6 @@
 .pinned-news-item .pinned-news-item__detail .pinned-news-item__title {
   margin-top: 12px;
   cursor: pointer;
-}
-.pinned-news-item .pinned-news-item__detail .pinned-news-item__title .pinned-news-item__title-text {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -213,8 +211,6 @@
 }
 .news-item .news-item__detail .news-item__title {
   cursor: pointer;
-}
-.news-item .news-item__detail .news-item__title .news-item__title-text {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -308,8 +304,6 @@
 }
 .main-banner .main-banner__detail .main-banner__title {
   cursor: pointer;
-}
-.main-banner .main-banner__detail .main-banner__title .main-banner__title-text {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
